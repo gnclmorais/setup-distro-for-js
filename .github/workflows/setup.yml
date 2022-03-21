@@ -1,0 +1,14 @@
+name: Ubuntu JavaScript setup
+on: [push]
+jobs:
+  ubuntu-js-setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Install general dependencies
+        run: |
+          bash ./scripts/01-install-general-dependencies.sh
+      - name: Install JavaScript dependencies
+        run: |
+          bash ./scripts/02-install-javascript-dependencies.sh          
