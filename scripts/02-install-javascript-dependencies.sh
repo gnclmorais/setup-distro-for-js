@@ -11,6 +11,8 @@ else
   curl https://get.volta.sh | bash -s -- --skip-setup
   echo >> ~/.bashrc
   echo '# Volta setup' >> ~/.bashrc
-  echo 'export VOLTA_HOME="$HOME/.volta"' >> ~/.bashrc
+  echo 'export VOLTA_HOME=$HOME/.volta' >> ~/.bashrc
   echo 'export PATH=$PATH:$VOLTA_HOME/bin' >> ~/.bashrc
+
+  cat ~/.bashrc
 fi
