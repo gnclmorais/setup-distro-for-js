@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/bash 
+set -m
 
 bash ./01-install-general-dependencies.sh
 bash ./02-install-javascript-dependencies.sh

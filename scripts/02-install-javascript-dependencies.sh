@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/bash 
+set -m
 
 # We need curl to easy fetch Volta
 sudo apt-get --quiet install curl

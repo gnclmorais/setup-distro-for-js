@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/bash 
+set -m
 
 sudo apt-get --quiet update
 sudo apt-get --quiet upgrade
