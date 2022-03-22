@@ -13,7 +13,7 @@ sudo apt-get --quiet --assume-yes install curl
 if ! command -v volta &> /dev/null
 then
   curl https://get.volta.sh | bash
-  source ~/.bashrc
+  source ~/.profile
 else
   echo 'Volta already installed'
 fi

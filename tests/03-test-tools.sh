@@ -1,7 +1,8 @@
 #!/bin/bash 
 set -m
 
-source ~/.bashrc
+# https://docs.volta.sh/reference/setup#Unix
+source ~/.profile
 
 if ! command -v volta &> /dev/null
 then
