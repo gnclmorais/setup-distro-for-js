@@ -1,11 +1,11 @@
 
 # Instal updates and building tools
-sudo apt-get --quiet update
-sudo apt-get --quiet upgrade
-sudo apt-get --quiet install gcc perl make
+sudo apt-get --quiet --assume-yes update
+sudo apt-get --quiet --assume-yes upgrade
+sudo apt-get --quiet --assume-yes install gcc perl make
 
 # We need curl to easy fetch Volta
-sudo apt-get --quiet install curl
+sudo apt-get --quiet --assume-yes install curl
 
 # Check if Volta has been setup already
 if grep -R 'VOLTA_HOME' ~/.bashrc
