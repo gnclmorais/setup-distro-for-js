@@ -13,3 +13,10 @@ fi
 # Install Node, npm and yarn
 volta install node
 npm install --global yarn
+
+echo
+echo 'Installed versions:'
+node --version
+npm --version
+yarn --version
+echo
