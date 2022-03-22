@@ -17,4 +17,4 @@ jobs:
           bash ./scripts/02-install-javascript-dependencies.sh
       - name: Test tool installation
         run: |
-          bash ./scripts/03-test-tools.sh
+          bash ./tests/03-test-tools.sh

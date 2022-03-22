@@ -3,10 +3,7 @@ set -m
 
 source ~/.bashrc
 
-volta --version
-
-# if ! command -v volta &> /dev/null
-if ! command -v commandthatdoesnotexist &> /dev/null
+if ! command -v volta &> /dev/null
 then
   echo "Volta installation failed" >&2
   exit 1
