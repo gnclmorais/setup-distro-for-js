@@ -1,5 +1,8 @@
 name: Ubuntu JavaScript setup
 on: [push]
+defaults:
+  run:
+    shell: bash -ieo pipefail {0}
 jobs:
   ubuntu-js-setup:
     runs-on: ubuntu-latest
