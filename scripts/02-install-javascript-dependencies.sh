@@ -16,7 +16,6 @@ npm install --global yarn
 
 echo
 echo 'Installed versions:'
-node --version
-npm --version
-yarn --version
-echo
+echo " Node: $(node --version)"
+echo "  npm: $(npm --version)"
+echo " yarn: $(yarn --version)"
